@@ -1,7 +1,6 @@
 /*
-Author:
-Date:
-File Name: 
+Brandon Reyes
+4/19/2024
 */
 
 /* CSS Reset */
@@ -26,4 +25,38 @@ body {
 footer {
 	font-size: .70em;
 	text-align: center;
+}
+/* Star rule for the table element */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid #71881B;
+}
+
+/* Star rule for the table TR, TH, and TD selectors */
+table tr, table th, table td {
+    border-collapse: collapse;
+    padding: 2%;
+}
+
+/* Star rule for the caption element */
+caption {
+    font-size: 2em;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+/* Star rule for TH and TD selectors */
+th, td {
+    border: 1px solid #7188BB;
+}
+
+/* Star rule for TD */
+td {
+    text-align: center;
+}
+
+/* Star rule for TR odd rows */
+tr:nth-child(odd) {
+    background-color: #D3E788;
 }
