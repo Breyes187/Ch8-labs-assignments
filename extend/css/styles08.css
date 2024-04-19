@@ -12,7 +12,7 @@ body, main, footer, table {
 
 /* Style rule for body */
 body {
-	background-color: #f4f9e1;
+	background-color: #ffe5dc; /* Light pink */
 }
 
 /* Style rule for the container */
@@ -26,11 +26,13 @@ footer {
 	font-size: .70em;
 	text-align: center;
 }
+
 /* Star rule for the table element */
 table {
     width: 80%;
     margin: 0 auto;
-    border: 3px solid #71881B;
+    border: 3px solid #fd4d0c; /* Deep orange */
+    box-shadow: 0 0 10px #792101; /* Dark red */
 }
 
 /* Star rule for the table TR, TH, and TD selectors */
@@ -48,7 +50,7 @@ caption {
 
 /* Star rule for TH and TD selectors */
 th, td {
-    border: 1px solid #7188BB;
+    border: 1px solid #a22c02; /* Dark orange */
 }
 
 /* Star rule for TD */
@@ -58,5 +60,5 @@ td {
 
 /* Star rule for TR odd rows */
 tr:nth-child(odd) {
-    background-color: #D3E788;
+    background-color: #fe9772; /* Light orange */
 }
