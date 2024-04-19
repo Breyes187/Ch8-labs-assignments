@@ -1,7 +1,5 @@
 /*
-Author:
-Date:
-File Name: 
+Brandon Reyes 4/19/2024
 */
 
 /* Style for body specifies a background color */
@@ -25,8 +23,58 @@ footer {
 	text-align: center;
 }
 
-/* Media query for tablet layout */ 
-@media only screen and (min-width: 600px) {
+/* Media query for mobile layout */
+@media only screen and (max-width: 600px) {
+    /* Adjustments for mobile layout */
+    #container {
+        width: 100%;
+    }
+		/* Star rule for fieldset and input elements */
+	     fieldset, input {
+	         margin-bottom: 2%;
+	     }
 
-    
+	     /* Star rule for fieldset legend */
+	     legend {
+	         font-size: 1.25em;
+	         font-weight: bold;
+	     }
+
+	     /* Star rule for .btn class selector */
+	     .btn {
+	         border: none;
+	         margin: 0 auto;
+	         display: block;
+	         padding: 5%;
+	         background-color: #003399;
+	         font-size: 1.25em;
+	         border-radius: 10px;
+	         color: #FFF;
+	     }
+}
+
+/* Media query for tablet layout */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjustments for tablet layout */
+    #container {
+        width: 90%;
+    }
+		/* Star rule for form element */
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Star rule for grid class */
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+}
+
+/* Star rule for .btn class selector */
+.btn {
+    grid-column: 1 / span 2;
+    padding: 3%;
+	}
 }
